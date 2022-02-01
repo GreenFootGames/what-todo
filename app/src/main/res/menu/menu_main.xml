@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.greenfootgames.todolistapp.MainActivity">
+
+    <item
+        android:id="@+id/mi_ctrl_a"
+        android:icon="@drawable/ic_uncheck_all"
+        android:orderInCategory="200"
+        android:title="Check all"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_remove_checked"
+        android:icon="@drawable/ic_clear_checked"
+        android:orderInCategory="100"
+        android:title="Remove checked"
+        app:showAsAction="always" />
+
+</menu>
